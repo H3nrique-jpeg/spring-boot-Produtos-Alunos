@@ -43,5 +43,10 @@ public class Aluno {
     public void setCurso(String curso) {
         this.curso = curso;
     }
+
+    public Aluno orElse(Object object) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'orElse'");
+    }
     
 }

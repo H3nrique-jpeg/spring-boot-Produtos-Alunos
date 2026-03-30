@@ -1,7 +1,7 @@
 package com.example.aula2303;
 
 import java.util.List;
-import java.util.Optional;
+
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -33,13 +33,10 @@ public class AlunoService {
         buscarPorRa(ra);
         repositorio.deleteById(ra);
     }
-    public Optional<Aluno> findById(Long ra) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'findById'");
-    }
-    public ResponseEntity<Aluno> save(Aluno aluno) {
+     public ResponseEntity<Produto> save(Produto produto) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'save'");
-    }
-
+     }
 }
+
+
